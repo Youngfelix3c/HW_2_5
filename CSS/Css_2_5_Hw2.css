@@ -1,0 +1,94 @@
+.Hw2all{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    opacity: 0.9;
+    /* background-color: rgb(139, 104, 171); */
+    /* background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9); */
+    background: linear-gradient(to right, #5f2c82, #49a09d);
+    position: absolute;
+    width: 500px;
+    height: 780px;
+    
+    /* border: 8px solid rgba(155, 12, 168, 0.858); */
+    /* border-image: linear-gradient(#beed03,rgb(10, 222, 204)) 1; */
+    border-radius: 10%;
+    /* border-style: dashed; */
+    text-align: center;
+    top: 27%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -250px;
+}
+
+body{
+    background-image: url(../PNG/Hw2base.gif);
+}
+
+h1{
+    font-size: 30px;
+}
+
+#email{
+    background: #bdbdc0;
+    border: 0;
+    margin: 0;
+    padding: 5px 7px;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer; 
+}
+
+#new-username{
+    background: #bdbdc0;
+    border: 0;
+    margin: 0;
+    padding: 5px 7px;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer; 
+}
+
+#password{
+    background: #bdbdc0;
+    border: 0;
+    margin: 0;
+    padding: 5px 7px;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer; 
+}
+
+.register h1{
+    background: linear-gradient(to right, #03ee41, #f8f806);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.birthday,.Email,.Hw2username,.password,.re-password,.Hw2sex,.Hw2reset,.privacy,.to-sign-in,#regioncolor01{
+    color: chartreuse;
+}
+
+#reset{
+    color: rgb(186, 23, 23);
+    background: #bdbdc0;
+    border: 0;
+    margin: 0;
+    padding: 4px 8px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer; 
+}
+
+#join{
+    background: #bdbdc0;
+    border: 0;
+    margin: 0;
+    padding: 5px 70px;
+    color: #ec1c9c;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer; 
+}

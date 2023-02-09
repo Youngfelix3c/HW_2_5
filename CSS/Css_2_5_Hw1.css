@@ -1,0 +1,78 @@
+.all{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    opacity: 0.9;
+    background: linear-gradient(to right, #5f2c82, #49a09d);
+    /* background-color: rgba(158, 93, 185, 1.61); */
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    
+    /* border: 10px solid rgba(155, 12, 168, 0.858); */
+    border-radius: 10%;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -250px;
+}
+
+body{
+    background-image: url(../PNG/Hw1base.gif);
+}
+
+#username{
+    background: #bdbdc0;
+    border: 0;
+    margin: 0;
+    padding: 5px 7px;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer; 
+}
+
+#password{
+    background: #bdbdc0;
+    border: 0;
+    margin: 0;
+    padding: 5px 7px;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer; 
+}
+
+#reset{
+    color: red;
+    background: #bdbdc0;
+    border: 0;
+    margin: 0;
+    padding: 5px 8px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer; 
+}
+
+#click{
+    background: #bdbdc0;
+    border: 0;
+    margin: 0;
+    padding: 5px 70px;
+    color: #9811b7;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer; 
+}
+
+.signin h1{
+    background: linear-gradient(to right, #03ee0f, #06cad8);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 40px;
+}
+
+.form{
+    color: chartreuse;
+}
+

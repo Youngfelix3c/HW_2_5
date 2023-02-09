@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hw2</title>
+        <meta charset="utf-8"/>
+        <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <meta lang="zh-cn"/>
+        <link rel="stylesheet" href="CSS/Css_2_5_Hw2.css"/>
+        <link rel="shortcut icon" href="PNG/webicon.png"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+    </head>
+
+    <!-- CSS基本按照div来改，按需另加ID或span -->
+
+    <script>
+        // 进入网页时的提示框
+        // alert("Don't forget to browse Terms & Privacy")
+    </script>
+
+    <body>
+        <noscript>很抱歉,当前浏览器不支持Javascript</noscript>
+
+        <div class="Hw2all">
+            <div class="Hw2form">
+                <form action="todo" method="post" autocomplete="off">
+                    <div class="register">
+                        <h1>Register</h1>
+                        <img src="PNG/registericon.png" alt="register icon" width="30px"/>
+                    </div>
+                    <br>
+                    <!-- 邮箱 -->
+                    <div class="Email">
+                        <label for="email">Email</label><br>
+                        <input type="email" name="email" id="email" placeholder="Enter your Email" title="Enter your email" required/>
+                    </div>
+                    <br>
+                    <!-- 用户名 -->
+                    <div class="Hw2username">
+                        <label for="new-username">UserName</label><br>
+                        <input type="text" name="new-username" id="new-username" placeholder="Enter your UserName" pattern="^[A-Za-z0-9]{4,18}$" title="only A-Z | a-z | 0-9 | word limit 4 ~ 18" required/>
+                    </div>
+                    <br>
+                    <!-- 密码与重复密码 -->
+                    <div class="password">
+                        <label for="password">Password</label><br>
+                        <input type="password" name="password" id="password" placeholder="Enter your password" pattern="^[A-Za-z0-9]{6,18}$" title="only A-Z | a-z | 0-9 | word limit 6 ~ 18" required/>
+                    </div>
+                    <br>
+
+                    <div class="re-password">
+                        <label for="password">Repeat Password</label><br>
+                        <input type="password" name="password" id="password" placeholder="Repeat your Password" pattern="^[A-Za-z0-9]{6,18}$" title="only A-Z | a-z | 0-9 | word limit 6 ~ 18" required/>
+                    </div>
+                    <!-- 单选按钮 -->
+                    <div class="Hw2sex">
+                        <p>select your gender</p>
+                        <input type="radio" value="0" name="sex" id="sex"/>
+                        <label for="sex">man</label>
+                        <input type="radio" value="1" name="sex" id="sex"/>
+                        <label for="sex">female</label>
+                    </div>
+                    <!-- 下拉列表 -->
+                    <div class="area">
+                        <p id="regioncolor01">select your region</p>
+                        <select name="areaoption" id="areaoption"> 
+                            <optgroup label="Asia">
+                                <option value="99" selected>--select your region--</option>
+                                <option value="0">China</option>
+                                <option value="1">Japan</option>
+                                <option value="2">South Korea</option>
+                            </optgroup>
+                            <optgroup label="Europe">
+                                <option value="4">France</option>
+                                <option value="5">Germany</option>
+                                <option value="6">U.K.</option>
+                            </optgroup>
+                            <optgroup label="America">
+                                <option value="8">United States</option>
+                                <option value="9">Canada</option>
+                                <option value="10">Mexico</option>
+                            </optgroup>
+                            <optgroup label="Africa">
+                                <option value="12">Algeria</option>
+                                <option value="13">Egypt</option>
+                                <option value="14">Ethiopia</option>
+                            </optgroup>
+                            <optgroup label="Oceania">
+                                <option value="16">Australia</option>
+                                <option value="17">New Zealand</option>
+                                <option value="18">Kingdom of Tonga</option>
+                            </optgroup>
+                            <optgroup label="Other">
+                                <option value="3">Other</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <br>
+                    <!-- 生日（日历） -->
+                    <div class="birthday">
+                        <label for="birthday01">choose your birthday</label><br><br>
+                        <input type="date" name="birthday01" id="birthday01"/>
+                    </div>
+                    <br>
+                    <!-- 清除按键 -->
+                    <div class="Hw2reset">
+                        <label for="reset"><input type="reset" value="click me" id="reset"/>&nbsp;to reset</label>
+                    </div>
+
+                    <div class="privacy">
+                        <!-- 超链接并不正经 -->
+                        <p>By creating an account you agree to our&nbsp;<a href="index_2_5_Hw3.html" target="_blank" rel="noopener noreferrer">Terms & Privacy</a></p>
+                    </div>
+
+                    <div class="join-us">
+                        <input type="submit" value="Join Us" id="join"/>
+                    </div>
+
+                    <div class="to-sign-in">
+                        <p>Already have an account?&nbsp;➡&nbsp;
+                            <a href="index_2_5_Hw1.html" target="_blank" rel="noopener noreferrer">Sign in<img src="PNG/sign-in-icon.png" width="25px" alt="this is an icon"></a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

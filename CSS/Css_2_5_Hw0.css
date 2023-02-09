@@ -1,0 +1,49 @@
+.content{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    opacity: 0.9;
+    background: linear-gradient(to right, #8c9478, #cc6465);
+    /* background-color: rgb(136, 119, 119); */
+    position: absolute;
+    width: 400px;
+    height: 380px;
+    
+    /* border: 10px solid rgba(146, 164, 118, 0.858); */
+    border-radius: 10%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -250px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+body{
+    background-image: url(https://i0.hdslb.com/bfs/article/5cf5fef3945b9a2d50cb4886d9a502533ff3440a.gif);
+}
+
+#click01{
+    font-size: 5px;
+}
+
+#eggclick01{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: white;
+    background-image: linear-gradient(to right,rgb(180, 20, 145),rgb(71, 20, 155),rgb(16, 212, 58));
+}
+
+.header h1{
+    background: linear-gradient(to right, #03ee0f, #06cad8);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.footer,.jsclick{
+    color: aquamarine;
+}
+
