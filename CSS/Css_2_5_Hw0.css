@@ -1,3 +1,13 @@
+@media only screen and (max-width: 600px) {
+  /* 在宽度小于等于 600px 的屏幕上使用这些样式 */
+  body {
+    font-size: 16px;
+  }
+  .nav {
+    padding: 20px;
+  }
+}
+
 .content{
     font-family: 'Oswald', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
